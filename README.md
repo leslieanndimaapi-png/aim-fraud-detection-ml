@@ -78,36 +78,18 @@ Evaluation metrics:
 - Severe class imbalance may still affect generalization
 - SMOTE introduces synthetic data which may not fully reflect real fraud patterns
 - Model performance may degrade over time as fraud patterns evolve
-- Limited fairness analysis due to lack of sensitive attributes
 
 ---
 
 ## 📁 Repository Structure
-aim-fraud-detection-ml/
-│
-├── data/ # Raw and processed data
-├── notebooks/ # pre-prcessing, EDA, feature engineering, modeling, explainability
-├── src/ # Modular scripts for pipeline
-├── models/ # Saved trained models
-├── reports/ # Project reports
-├── requirements.txt
-└── README.md
-
 ```bash
-├── data
-│   ├── data1.csv
-│   ├── data2.csv
-│   ├── cleanedData
-│   │   ├── cleaneddata1.csv
-|   |   └── cleaneddata2.csv
-├── data_acquisition.py
-├── data_preprocessing.ipynb
-├── data_analysis.ipynb
-├── data_modelling.ipynb
-├── Img
-│   ├── img1.png
-│   ├── Headerheader.jpg
-├── LICENSE
+aim-fraud-detection-ml/
+├── data/                       # Raw and processed data
+├── notebooks/                  # pre-prcessing, EDA, feature engineering, modeling, explainability
+├── src/                        # Modular scripts for pipeline
+├── models/                     # Saved trained models - configs and parameters
+├── reports/                    # Project reports
+├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
